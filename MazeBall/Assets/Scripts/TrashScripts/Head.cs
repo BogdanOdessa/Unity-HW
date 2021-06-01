@@ -6,7 +6,7 @@ namespace MazeControllers
 {
     public class Head : MonoBehaviour
     {
-        [SerializeField] private Player Player;
+        [SerializeField] private PlayerController Player;
         private Vector3 _offset;
         private float _horizontalRotation = 0f;
         public float _rotationSpeed = 10f;
