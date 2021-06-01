@@ -56,9 +56,27 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\TrashScripts\ListInteractableObject.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Bonuses\GoodBonus.cs" />
+    <Compile Include="Assets\Scripts\Bonuses\DisplayBonuses.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IAction.cs" />
+    <Compile Include="Assets\Scripts\Bonuses\Points.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IRotation.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IFlay.cs" />
+    <Compile Include="Assets\Scripts\Abstract\InteractiveObject.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IFlicker.cs" />
+    <Compile Include="Assets\Scripts\Bonuses\GameController.cs" />
+    <Compile Include="Assets\Scripts\TrashScripts\TestList.cs" />
+    <Compile Include="Assets\Scripts\TrashScripts\GenericsTest.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IInteractable.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\TrashScripts\Head.cs" />
+    <Compile Include="Assets\Scripts\Traps\Trap.cs" />
+    <Compile Include="Assets\Scripts\Bonuses\BadBonusReduceSpeed.cs" />
+    <Compile Include="Assets\Scripts\Bonuses\SpeedBonus.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\ISpeedChange.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\TestClone.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

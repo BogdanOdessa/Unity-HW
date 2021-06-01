@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 namespace MazeControllers
 {
-    public class CameraController : MonoBehaviour
+    public sealed class CameraController : MonoBehaviour
     {
         [SerializeField] private Transform _target;
         [SerializeField] private float offsetDistance = 3f;
